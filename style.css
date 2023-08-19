@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background-color: #e7dfd8;
+  color: #231d1c !important;
+  font-size: 24px;
+  font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  padding: 4%;
+}
+.header {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content-body {
+  border: 1px solid #231d1c;
+  display: flex;
+  justify-content: space-between;
+}
+.content-body .content {
+}
+.content-body .hero-image {
+  padding: 1%;
+}
+.content-body .hero-image img {
+  height: 100%;
+  width: 100%;
+}
